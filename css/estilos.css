@@ -1,0 +1,494 @@
+.btnLogin:hover{
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 10px rgba(255,255,255,1) , 0 0 39px rgba(255,255,255,1) ;
+	font-size: 16px; transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	text-overflow: clip;  
+	padding: 5px 12px 5px 12px;
+}
+
+body{
+	color: black;
+	background-color: white !important;
+}
+
+legend{
+	color: #f59500;
+}
+
+p{
+	color: #7b7e8a;
+}
+
+a{
+	color: #b70053 !important;
+}
+
+a:hover{
+	color: #ff28b1 !important;
+}
+
+h1,h2,h3,h4,h5,legend{
+	color: #b70053;
+}
+
+
+.main-sidebar{
+	/*background-color: #4a0b2a !important;*/
+	padding-top: 10px !important;
+}
+.header{
+	background-color: #460022 !important;
+	color: #9a6b8e !important;
+}
+.sidebar a{
+	color: #d6adc1 !important;
+}
+.sidebar-menu>li:hover>a{
+	background-blend-mode: difference;
+	border-left-color: #ff2df5 !important;
+}
+.titulo{
+	text-shadow: 0 0 5px rgba(255,255,255,1);
+	border: 2px blue; 
+}
+
+.bannerbutton{
+	background-image: url(/img/banner.png); 
+	background-position: center; 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-position: right;
+}
+
+.contenido{
+	background-color: #ecf0f5;
+	min-height: 100%;
+}
+
+.content-wrapper{
+	margin: 0px auto auto auto !important;
+	background-color: #31152a;
+	max-width: 1280px;
+	display: block;
+}
+
+.media{
+	padding: 10px;
+	margin: 0px;
+}
+
+.mediabutton{
+	width: 40px;
+	margin: auto;
+}
+
+.todo{
+	max-width: 1280px; 
+	margin-right: auto; margin-left: auto;
+	padding-left: 2%; padding-right: 2%; 
+
+}
+
+.work{
+	border-radius: 0px; width: 30px; height: 30px; font-size: 18px; text-align: center; padding-top: 6px;
+}
+
+.carrusel{
+	max-width: 1280px;
+	margin: auto;
+}
+
+.ventanacentro{
+	max-width: 1280px !important; min-height: 1080px;
+	padding: 15px; 
+	margin: auto !important;
+	margin-top: 50px !important; 
+	background-color: #f7f7f7;
+}
+
+.subtitulopagina{
+	padding: 5px 15px; margin: 10px 15px 20px 15px;
+	background-color: #afbec7;
+	color:#222d33; text-align: center;
+}
+
+.titulopagina{
+	padding: 5px 15px; margin: 10px 0px 20px 0px;
+	background-color: #1c1f2d;
+	color: white; text-align: center;
+	background-image: url("/img/titulo.png"); background-size: contain; background-repeat: no-repeat;
+	background-position: right;
+}
+
+.post{
+	padding: 10px !important;
+	margin: 0px 5px 0px 5px;
+	text-align: justify;
+}
+
+.noticia{
+	padding: 20px !important;
+	margin: 0pxs;
+	text-align: justify;
+	background-color: white;
+}
+
+.seccion{
+	background-color: white;
+	padding: 15px; margin: 15px;
+}
+
+.logo-main{
+	margin: auto; margin-top: 60px;
+	width: 80%;
+	max-width: 720px; display: block;
+}
+
+
+
+.navbar-toggle:hover, 
+.navbar-toggle:focus{
+	background-color: #333a39 !important;
+}
+
+.navbar-default, .navbar-collapse, .navbar-form{
+	border: none;
+	background-color: #0d1629;
+}
+
+.grupo-cuadros{
+	margin: auto; 
+	max-width: 640px; width: 80%;
+	margin-bottom: 250px;
+}
+
+.cuadro-btn{
+	width: 100%;	
+	background-color: #18277d;
+	border-radius: 15px;
+	color: white;
+	background-image: url(../img/logo_corto2.png);
+	background-size: 100%;
+}
+
+.texto-cuadro{
+	text-align: center; 
+	padding: 20px; margin: 10px;
+	color: white;
+}
+
+
+
+.iluminar:hover, .iluminar:focus{
+	color: #cecece !important;
+	display: inline-block;
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	  font-size: 17px;	  
+	  border: none;
+	  color: rgba(255,255,255,1);  
+	  text-overflow: clip;
+	  white-space: pre;
+	  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 5px rgba(255,255,255,1) , 0 0 0 rgba(145,249,255,1) , 0 0 43px #00ffe1 , 2px 2px 70px #00d8ff , 2px 5px 80px #003fff ;
+	  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 0.01);
+}
+
+.iluminarbox:hover, .iluminarbox:focus{
+	color: #cecece !important;
+
+	background-position: 0px +100%;
+	box-shadow:  0 0 0 rgba(145,249,255,1) , 0 0 43px #00ffe1 , 2px 2px 70px #00d8ff , 2px 5px 80px #003fff ;
+	transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+	transition: all 0.5s ease-in-out;
+	position: sticky; border-radius: 30px;
+}
+
+
+.logintextarea{
+	font-family: "Lucida Console";	
+}
+
+.main-sidebar{
+	min-height: auto !important;
+}
+
+.skin-purple .sidebar-menu>li>a>span:hover, .skin-purple .sidebar-menu>li>a>small:hover {
+	text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 5px rgba(255,255,255,1);
+	border-left-color: #2b4ab3;
+	padding-left: 4px;
+}
+
+.sidebar-menu{
+	width: 100% !important;
+	top: 20px; position: absolute;
+}
+
+.sidebar-menu >li>a{
+	padding: 6px; padding-left: 12px;
+}
+
+
+
+
+.progress{
+	margin-bottom: 2px !important;
+}
+
+
+
+.bg-fussia{
+	background: #ef00a8 !important;
+	color: white !important;
+}
+
+
+footer{
+	background-color: #0d1629 !important;
+	color: gray !important;
+	margin: 0 !important;
+	border: none !important;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #48062a; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #ffbef1;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #ff69ad !important;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0; z-index: 1;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav-title{
+	margin-top: 18px;
+	color: #ff9bad !important;
+	
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.topnav {
+    background-color: #a7006f;
+    overflow: hidden;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+.tarjeta{
+	width: 900px; height: 270px; 
+	margin-left: auto; margin-right: auto; 
+	background-color: #52072dd9; 
+	padding-left: 30px; padding-right: 30px; 
+	top:170px; padding-top: 8px;
+	position: relative; 
+	border-radius: 10px; 
+	-webkit-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.55);
+	-moz-box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.55);
+	box-shadow: 2px 2px 10px -1px rgba(0,0,0,0.55);
+}
+
+.tarjeta-sm{
+	width: 100%; 
+	height: 350px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	background-color: #580639b5; 
+	padding-left: 30px; 
+	padding-right: 30px; 
+	top:100px; position: relative;
+}
+
+.nombre-MD{
+	text-align: right; font-size: 40px; 
+	color: white; margin-bottom: 0px; 
+	text-overflow: ellipsis; padding-right: 10px;
+}
+
+.cualidad-MD{
+	text-align: right; margin-top: 4px; color: #d49c9c; padding-right: 10px;
+}
+
+.fondoPerfil-MD{
+	border-radius: 360px; 
+	background-image:  url(../img/Elisa-leonida/fondo.jpg); 
+	background-size: 180%; 
+	background-position: center; 
+	border: 2px white solid; ; 
+	height: 260px; width:  260px; 
+	margin: auto; overflow: hidden; 
+	position: relative; margin-top: 10px;
+}
+
+.fondoPerfil-SM{
+	border-radius: 360px; 
+	background-image:  url(../img/Elisa-leonida/fondo.jpg); 
+	background-size: 180%; 
+	background-position: center; 
+	border: 2px white solid; 
+	height: 150px; width:  150px; 
+	margin: auto; overflow: hidden; 
+	position: relative; margin-top: -20px;
+}
+
+.fondoPerfil-side{
+	border-radius: 360px; 
+	background-image:  url(../img/Elisa-leonida/fondo.jpg); 
+	background-size: 180%; 
+	background-position: center; 
+	border: 2px white solid; 
+	height: 60px; width:  60px; 
+	margin: auto; overflow: hidden; 
+	position: relative; margin-top: 0px; margin-left: 10px;
+}
+
+.contenedor-perfil-sidebar{
+	position: relative; width: 100%; margin-top: -6px; margin-left: -12px;
+	overflow: hidden; height: 74px; width: 280px;
+}
+
+.foto-sidebar{
+	position: absolute; z-index: 1;
+	height: 460px; top: -15px;
+	margin-left: -75px;
+}
+
+.sidenav-char:hover{
+	background-size: 108% !important; !important;
+}
+
+.titulo-sidenav{
+	margin-left: 90px; margin-top: 23px;
+	font-weight: bold;
+	color: #ffedf7 !important;
+	text-shadow: 2px 1px #47031fb3; 
+	
+	text-align: center; margin-right: 20px;
+}
+
+
+.fondoPerfil-side > img{
+	width: 250%; left: -46px; margin-top: 4px; position: absolute;
+}
+
+
+.fotoPerfil-MD{
+	width: 200%; left: -140px; margin-top: 15px; position: absolute;
+}
+
+.ribbon{
+	width: 200px;
+    height: 320px;
+    left: 45px;
+    border-left: 100px solid #ecaf00;
+    border-right: 100px solid #ecaf00;
+    border-bottom: 45px solid transparent;
+    position: absolute; margin-top: -8px;
+}
+
+.box-warning{
+	border-top-color: #f3128f !important;
+}
+
+.panelrosa{
+	background-color:#c50083; 
+	padding: 10px; border-radius: 10px;
+	color: white;
+}
+
+.panelrosa h3{
+	color: white; text-align: center;
+}
+
+.medalla{
+	width: 40px;
+	margin: 10px; 
+}
+
+.columna{
+	background-color: white;
+	border-left: 2px solid red; 
+	border-right: 2px solid red;
+}
+
+tr{
+	background-color: #11abe2;
+    border: 2px dotted;
+    font-weight: bold;
+    color: aliceblue;
+    padding-right: 8px;
+}
+td{
+	padding-right: 8px;
+}
+
+table{
+	width: 100%;
+	
+}
